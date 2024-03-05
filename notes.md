@@ -44,4 +44,8 @@ You can see everything in this website folder and its descendant folders. Notice
 21. You can use it to search for something with `find -name <filename>`. for example: Use find with the -name flag to search for index.html.
 22. `mv <file_name> ..` can be used to move the specified file one directory up and so on.
 23. You can use `rmdir <directory_name>` to remove a folder. `rmdir` stands for **remove directory**.
-24.
+24. `rm -r <directory_name>` to remove a directory with all of its contents recursively, There's a -r flag that says, remove directories and their contents recursively. That will remove the folder and everything in it. Looks like it’s gone. Surely, it went to the trash can right? No, it’s just gone. You should be very careful when recursively removing files like that. It will delete everything, and can destroy your operating system.
+
+25. You can print to a file instead of the terminal with `echo text >> filename`.
+26. You can view contents of a file by `more <file_name>`
+27. `exit` command can be used to close the terminal.
